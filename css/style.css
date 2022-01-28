@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Slabo+27px&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8EBE9;
+    
+}
+
+/* Container */
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 877px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Main content */
+.main-content{
+    flex-grow: 1;
+}
+
+.background-container {
+    max-width: 315px;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    padding-top: 33px;
+    margin: 0;
+}
+
+.background-container-text-link {
+    display: flex;
+    align-items:center;
+    text-decoration: none;
+    opacity: 0.6;
+    color: #5D7DA6;
+}
+
+.background-container-img {
+    color: #B3B3B3;
+    width: 15px;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.background-container-text {
+    font-size: 11px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.background-container-text:hover{
+    color: #000;
+}
+
+.action-container {
+    max-width: 562px;
+    width: 100%;
+    padding-left: 85px;
+    padding-top: 33px;
+    padding-right: 29px;
+    padding-bottom: 95px;
+}
+
+.action-container-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.action-container-top-link {
+    text-decoration: none;
+}
+
+.action-container-top-link:not(:last-child){
+    margin-right: 30px;
+}
+
+.action-container-top-text {
+    margin: 0;
+    font-size: 11px;
+    color: #B3B3B3;
+}
+
+.action-container-top-text:hover{
+    color: #3A3A3E;
+}
+
+.action-container-top-text-special{
+    color: #3A3A3E;
+}
+
+.action-container-center {
+    width: 390px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.action-container-center-heading {
+    display: flex;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 54px;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.action-container-center-heading::after{
+    display: inline-block;
+    content: '____';
+    color: #000000;
+    margin-bottom: -30px;
+    margin-left: -50px;
+}
+
+.action-container-center-text {
+    font-family: 'Slabo 27px', serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.action-container-bottom {
+    display: flex;
+    align-items: center;
+}
+
+
+.action-container-bottom-gallery-video-link-wrapper{
+    background-image: url('../images/preview.jpg');
+    background-size:cover;
+    width: 155px;
+    height: 100px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    margin-right: 40px;
+    padding:35px;
+}
+
+.action-container-bottom-gallery-video-link {
+    
+}
+
+.action-container-bottom-gallery-video-link-img {
+    display: flex;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.action-container-bottom-gallery-video-link-img:hover{
+    opacity: 1;
+}
+
+.action-container-bottom-gallery-text-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.action-container-bottom-gallery-text {
+    margin: 0;
+    font-size: 11px;
+    color: #645a5a;
+    margin-right: 5px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.action-container-bottom-gallery-text:hover{
+    color: #000000;
+}
+
+.action-container-bottom-gallery-text-img {
+    width: 15px;
+}
+
+.action-container-bottom-text {
+    width: 210px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #494545;
+}
